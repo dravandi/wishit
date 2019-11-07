@@ -5,15 +5,6 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Sign-in</title>
-    </head>
-    <body>
-        <h1 class="logo">WishIt</h1>
-        <hr>
-        <!-- The surrounding HTML is left untouched by FirebaseUI.
-        Your app may use that space for branding, controls and other customizations.-->
-        <h2>Sign up/Log in</h2>
-        <div id="firebaseui-auth-container"></div>
-        <div id="loader">Loading...</div>
 
         <!-- The core Firebase JS SDK is always required and must be listed first -->
         <script src="https://www.gstatic.com/firebasejs/7.2.3/firebase-app.js"></script>
@@ -22,6 +13,7 @@
         <!-- TODO: Add SDKs for Firebase products that you want to use
         https://firebase.google.com/docs/web/setup#available-libraries -->
         <script src="https://www.gstatic.com/firebasejs/7.2.3/firebase-auth.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.2.3/firebase-firestore.js"></script>
 
 
         <script>
@@ -81,5 +73,16 @@
         // The start method will wait until the DOM is loaded.
         ui.start('#firebaseui-auth-container', uiConfig);
         </script>
+    </head>
+    <body>
+        <h1 class="logo">WishIt</h1>
+        <hr>
+        <!-- The surrounding HTML is left untouched by FirebaseUI.
+        Your app may use that space for branding, controls and other customizations.-->
+        <h2>Sign up/Log in</h2>
+        <div id="firebaseui-auth-container"></div>
+        <div id="loader">Loading...</div>
+
+        
     </body>
 </html>
