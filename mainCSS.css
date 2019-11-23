@@ -1,0 +1,61 @@
+nav{
+    background: #5BC7C7;
+    float: top;
+}
+.navbar-brand{
+    font-weight: bolder;
+    font-size: 40px;
+}
+.jumbotron{
+    padding:15px;
+    background: #96C0FF;
+}
+
+.display-3{
+    font-size: 25px;
+}
+h1{
+    display:block;
+}
+.navbar-toggler{
+    background-color: #37788C;
+}
+.itemImage{
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+.center {
+    margin: auto;
+    width: 100%;
+    padding: 15px;
+}
+.card{
+    padding:0px;
+}
+.row{
+    margin: auto;
+}
+.search-bar{
+    background-color: #FFF1CE;
+    border: 1px solid #D1C346;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.search-bar:focus{
+    background-color: rgb(255, 226, 153);
+    border: 1px solid #F3C245;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.search-btn{
+    background-color: #FFD25F;
+    border: #FFD25F;
+}
+.search-btn:hover{
+    background-color: #F3C245;
+}
+.jumbotron{
+    padding: 10px;
+}
